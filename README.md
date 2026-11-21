@@ -67,7 +67,7 @@ requirements.txt            unpinned install list
 
 | Name | Built with | Role in the notebook |
 | --- | --- | --- |
-| `simple_agent` | `langchain.agents.create_agent` | Constructed, then left unused |
+| `simple_agent` | `langchain.agents.create_agent` | Constructed |
 | `deep_agent` | `deepagents.create_deep_agent` | System prompt `Act as a Researcher`, then asked “What is LangGraph?” |
 
 The saved output for that question shows the model planning a search and calling `web_search`.
